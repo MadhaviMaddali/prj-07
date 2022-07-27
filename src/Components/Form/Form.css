@@ -1,0 +1,57 @@
+.forms-bg{
+    background-image:  linear-gradient(rgb(50, 69, 107), rgba(15, 25, 82, 0.884)), url('https://static.wixstatic.com/media/48010f_db041a29ffc044889de000844b4dd64a~mv2.jpg/v1/fill/w_1139,h_938,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/48010f_db041a29ffc044889de000844b4dd64a~mv2.jpg');
+    background-size: cover;
+    color: white;
+    opacity: 1;
+    /* filter: opacity(1) drop-shadow(0 0 0 blue); */
+
+}
+.form-style {
+    margin: 0% 36% 0% 36%;
+    padding: 3.5% 0% 5% 0%;
+    /* justify-self: center; */
+    /* text-align: center; */
+}
+.form p{
+
+}
+.header{
+    font-size: 3rem;
+    font-style: Roboto;
+    font-weight: bold;
+    text-align: center;
+    padding: 0% 0% 10% 0%;
+}
+.asterick{
+    color: #D49D3C;
+}
+.form ul{
+    display: flex;
+    justify-content: space-between;
+}
+.form ul li{
+    list-style: none;
+}   
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+.form-input input{
+    background: transparent;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 2%;
+    color: whitesmoke;
+}
+#inputID::placeholder{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input[type=textarea]{
+    padding-bottom: 30%;
+}
+input[type=submit]{
+    background-color: #D49D3C;
+}

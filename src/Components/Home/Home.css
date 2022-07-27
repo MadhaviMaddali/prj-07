@@ -1,0 +1,49 @@
+.video-section{
+    background-image: url('https://static.wixstatic.com/media/48010f_f9cb19550c0940648cd7eeb5405715c5~mv2.jpg/v1/fill/w_1139,h_525,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/48010f_f9cb19550c0940648cd7eeb5405715c5~mv2.jpg');
+    display: flex;
+    justify-content: center;
+}
+.video-section span p{
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2;
+}
+.video-section span button{
+    background-color: #d49d3c;
+    color: white;
+    font-size: x-large;
+    padding: 10px 35px;
+    margin: 5% 0%;
+}
+.video-section span article{
+    color: #D49d3c;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.invest-guardian p{
+    padding: 4% 0%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #0d1d3a;
+}
+.invest-guardian hr{
+    height: 12px;
+    background-color: #d49d3c;
+    background-image: linear-gradient(43deg, #AA7A2D 0%, #d49d3c 46%, #e9b355 100%);
+
+    border: none;
+    margin: 0%;
+}
+.imported-founders{
+background-color: #0d1d3a;
+}
+.imported-founders h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0%;
+    padding: 3% 0% 0% 0%;
+}

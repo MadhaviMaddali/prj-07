@@ -1,0 +1,92 @@
+.img1 .logo{
+    position:absolute;
+    top:30%;
+    left : 40%;
+    
+}
+.img1{
+    margin-bottom: -1%;
+}
+.img1 .img2{
+    margin-top: -1%;
+}
+.img2{
+    margin-bottom: -1%;
+}
+.img2 .underline{
+    position: absolute;
+    background-color: aliceblue;
+    width: 760px;
+    height: 1px;
+    top: 70.5%;
+    right: 35%;
+}
+
+.img2 .h2{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    color: aliceblue;
+}
+.font_5{
+    position: absolute;
+    color: aliceblue;
+    top:67%;
+    left: 25%;
+    font-size:30px ;
+}
+.font_6{
+    position: absolute;
+    color: aliceblue;
+    top:73%;
+    left: 25%;
+    font-size:30px ;
+}
+.font_7{
+    position: absolute;
+    color: aliceblue;
+    top:79%;
+    left: 25%;
+    font-size:30px ;
+}
+
+.img2 .aim3{
+    position: absolute;
+    color: #D49D3C;
+    display:block;
+    top:103%;
+    left: 23%;
+    font-size: 20px;
+    list-style-type: none;
+}
+.img2 .aim4{
+    position: absolute;
+    color: #D49D3C;
+    display:block;
+    top:103%;
+    left: 53%;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.img2 .h3{
+    position: absolute;
+    top: 89%;
+    left: 25%;
+    color: aliceblue;
+    font-size: 30px;
+}
+.img2 .icon{
+    color: aliceblue;
+    
+}
+
+.img2 .h4{
+    position: absolute;
+    padding: 0.5%;
+    padding-inline-end: 30%;
+    top: 98%;
+    left: 25%;
+    color: white;
+    background-color: #D49D3C;
+}

@@ -1,0 +1,48 @@
+.founders{
+    background-color: #0d1d3a;
+}
+.founder-sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 20%;
+}
+.founder-sections div{
+    margin: 20px;
+}
+.leaders{
+    position: relative;
+}
+.leaders img{
+    height: 47vh;
+    border-radius: 5px;
+}
+.leaders div{
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    left: 12%;
+}
+.leader{
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.linkdn-icon{
+    color: white;
+    border-radius: 50%;
+    background-color: #D49D3C;
+    padding: 15px;
+    margin: 5PX;
+}
+.leader-5 div{
+    left: 20%;
+}
+.leader-6 div{
+    bottom: 2%;
+}

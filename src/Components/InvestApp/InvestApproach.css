@@ -1,0 +1,146 @@
+.parallax-effect{
+    background-image: url('https://static.wixstatic.com/media/48010f_d1e508c8a4374ac1ad70e32bcdc94ce1~mv2.jpg/v1/fill/w_1257,h_842,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/48010f_d1e508c8a4374ac1ad70e32bcdc94ce1~mv2.jpg');
+    min-height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax-effect p{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin: 10% 0% 0% 25%;
+    padding: 5px 35px;
+    background-color: #0d1d3a;
+    position: absolute;
+
+}
+.animation-bar-l{
+    display: inline-block;
+    width: 250px;
+    height: 4px;
+    background-color: #0d1d3a;
+    margin-left: 100%;
+    text-align: center;
+}
+.animation-bar-s{
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    background-color: #0d1d3a;
+    margin-left: 28%;
+
+}
+.filter-animations{
+    display: grid;
+    grid-template-columns: 30rem 1fr 30rem;
+    background-color: #f2f2f2;
+    padding-top: 3%;
+}
+.filter-animations p{
+    font-weight: 700;
+    font-size: 1.27rem;
+    grid-column: 2/3;
+    margin: 8px 0px;
+    color: #0d1d3a;
+}
+.stocks{
+    grid-column: 2/3;
+    margin-top: 3%;
+}
+.stock-icons{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.stock-header{
+    background-color: #D49D3C;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 8px 70px;
+}
+
+.stock-down-arrow ul li{
+    list-style: none;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0px 8px;
+}
+.stock-down-arrow ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px ;
+    margin-bottom: 0%;
+}
+.filter-icon{
+    color: #D49D3C;
+    font-size: 20rem;
+    font-weight: lighter;
+}
+.investmentApproach-flex-conatiner p{
+    background-color: #D49D3C;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 8px 0px;
+    margin-bottom: 10%;
+}
+.multi-flex{
+    display: flex;
+    margin: 5% 0%;
+    position: relative;
+}
+.multi-flex span{
+    margin: 0px 10px 0px 0px;
+}
+.multi-flex span h1{
+    position: absolute;
+    color: #0d1d3a;
+    top: 1px;
+    left: 54px;
+}
+.ok-icon{
+    height: 40px;
+}
+.label-filter{
+    font-size: 8rem;
+    color: #0d1d3a;
+}
+.filter-flex span{
+    display: flex;
+}
+.filter-flex span aside{
+    color: #0d1d3a;
+    margin: 0px 30px;
+    padding: 20px 0px;
+    font-size: larger;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px;
+}
+.filter-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #0d1d3a;
+}
+.investmentApproach-graph{
+    background-color: #0d1d3a;
+    display: grid;
+    grid-template-columns: 30rem 1fr 30rem;
+}
+.investmentApproach-graph p{
+    grid-column: 2/3;
+    color: white;
+    background-color: #D49D3C;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    font-weight: bold;
+    margin: 6% 0%;
+}
+.investmentApproach-graph img{
+    grid-column: 2/3;
+}

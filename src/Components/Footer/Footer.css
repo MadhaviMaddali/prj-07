@@ -1,0 +1,113 @@
+.main-footer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-part-1{
+    text-align: center;
+    margin: 5% 0%;
+}
+.footer-part-1 img{
+ height: 8vh;
+}
+.footer-part-1, .footer-part-2,.footer-part-3{
+  flex: 1;
+}
+.footer-part-1 h3,p {
+    margin: 0%;
+}
+.footer-pages-links{
+    display: flex;
+}
+.footer-pages-links span ul li{
+    list-style: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+.footer-part-2 h2{
+    color: #d2aa56;
+    margin-left: 30px;
+}
+.footer-part-3{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-part-3 h2{
+    color: #d2aa56;
+    margin-left: 30px;
+  }
+  .contact{
+    display: flex;
+    align-items: stretch;
+  }
+  .mobile-icon ,.mail-icon, .location-icon{
+    /* flex: 1; */
+    justify-content: start;
+
+  }
+  .contact span{
+    margin: 0px 20px;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .contact-mail{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .contact-mail span{
+    margin: 0px 20px;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .contact-address{
+      display: flex;
+  }
+  .contact-address span{
+    color: white;
+  }
+  .location-icon{
+    margin: 15px 20px;
+  }
+  .contact-address ul{
+    padding: 0%;
+  }
+  .contact-address span  li{
+    list-style: none;
+    font-size: 1rem;
+  }
+  .contact-icons{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 2vh;
+    padding: 5px;
+    color: white;
+  }
+.sub-footer{
+    background-color: #e0a422;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-rights{
+    color: white;
+    margin: 0px 0px 0px 5%;
+    font-weight: 500;
+}
+.social-media-links{
+    margin: 0% 5% 0% 0%;
+}
+.social-media-icons{
+    padding: 8px;
+    height: 1.7vh;
+    width: 1.7vh;
+    color: #d2aa56;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 15px;
+}

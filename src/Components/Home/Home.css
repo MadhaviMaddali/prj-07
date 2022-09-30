@@ -1,7 +1,75 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background: rgb(13, 29, 58);
+  }
+
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  .each-slide-effect span h1{
+      font-size: 4rem;
+      font-weight: bold;
+      margin: 0%;
+  }
+  .each-slide-effect span hr{
+      height: 1vh;
+      width: 65vh;
+      border: none;
+      background: linear-gradient(to right,#a56704, #ebb14d);
+  }
+  .each-slide-effect span p{
+      font-size: 3vh;
+  }
+  .each-slide-effect span img{
+      height: 45vh;
+  }
+  .each-slide-effect div{
+      display: flex;
+      flex-direction: column;
+  }
+  .third-slide div p{
+      font-size: 1.5vw;
+      color: white;
+      background-color: #d49d3c;
+      padding: 5px 100px;
+  }
+  .each-slide-effect div span img{
+      height: 40vh;
+  }
+  .slide-four span{
+      display: flex;
+      align-items: center;
+  }
+  .slide-four span img{
+      /* margin-right: %; */
+  }
+  .slide-four aside {
+      text-align: start;
+  }
+  .status-bar{
+      width: 50px;
+      height: 5px;
+      background-color: white;
+  }
 .video-section{
     background-image: url('https://static.wixstatic.com/media/48010f_f9cb19550c0940648cd7eeb5405715c5~mv2.jpg/v1/fill/w_1139,h_525,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/48010f_f9cb19550c0940648cd7eeb5405715c5~mv2.jpg');
     display: flex;
+    background-color: #0d1d3a;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
+    padding: 0% 27%;
+}
+.video-section span{
+    margin: 10vh 0vh;
 }
 .video-section span p{
     color: white;
@@ -20,6 +88,7 @@
     color: #D49d3c;
     font-size: 3rem;
     font-weight: bold;
+    margin: 0% 0% 10% 0%;
 }
 .invest-guardian p{
     padding: 4% 0%;

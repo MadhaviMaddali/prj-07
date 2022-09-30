@@ -26,11 +26,15 @@
 .media-pages-links{
     margin: 0%;
 }
+.media-links span{
+    margin: 0%;
+    padding: 0%;
+}
 .media-links span button{
     background-color: #d2aa56;
     background-image: linear-gradient(0deg, #d2aa56 19%, #ac8731 48%, #a6792a 95%);
     padding: 15px 30px;
-    margin: 10px ;
+    margin: 12px ;
     border-radius: 10px;
     border: none;
     color: white;
@@ -42,15 +46,16 @@
     justify-content: space-around;
 }
 .media-pages-links ul li{
-    margin: 5px 15px;
+    margin: 4px 15px;
     list-style: none;
     cursor: pointer;
     text-decoration: none;
+    padding: 0%;
 }
 .active{
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: 600;
     cursor: pointer;
 }
 .active:hover{

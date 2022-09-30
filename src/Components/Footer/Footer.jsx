@@ -1,4 +1,5 @@
 import React from 'react';
+import {ExternalLink} from 'react-external-link'
 import './Footer.css';
 import {BsTwitter,BsInstagram} from 'react-icons/bs';
 import {FaLinkedinIn,FaFacebookF,FaYoutube} from 'react-icons/fa';
@@ -40,18 +41,18 @@ export default function Footer() {
             <div className='footer-part-3'>
                 <h2>CONTACT US</h2>
                 <div className='contact'>
-                    <span><IoCallOutline className='contact-icons'/></span>
-                    <span>
+                    <span className='mobile-icon'><IoCallOutline className='contact-icons'/></span>
+                    <span >
                         <p>040 48539417</p>
                         <p>7093298222</p>
                     </span>
                 </div>
                 <div className='contact-mail'>
-                    <span><IoMailOutline className='contact-icons'/></span>
+                    <span className='mail-icon'><IoMailOutline className='contact-icons'/></span>
                     <span>gam@gcia.in</span>
                 </div>
-                <div className='contact-addres'>
-                    <span><IoLocationOutline className='contact-icons'/></span>
+                <div className='contact-address'>
+                    <span className='location-icon'><IoLocationOutline className='contact-icons'/></span>
                     <span>
                         <ul>
                             <li>4th Floor,SAHA Building,</li>
@@ -68,11 +69,21 @@ export default function Footer() {
                 <p><BiCopyright/>2021 Guardian Asset Management.All Rights Reserved</p>
             </span>
             <span className='social-media-links'>
-                <BsTwitter className='social-media-icons'/>
-                <FaLinkedinIn className='social-media-icons'/>
-                <FaFacebookF className='social-media-icons'/>
-                <BsInstagram className='social-media-icons'/>
-                <FaYoutube className='social-media-icons'/>
+                <ExternalLink href='https://twitter.com/GuardianCapita3'>
+                 <BsTwitter className='social-media-icons'/>
+                </ExternalLink>
+                <ExternalLink href='https://www.linkedin.com/company/guardian-capital-investment-advisors/'>
+                 <FaLinkedinIn className='social-media-icons'/>
+                </ExternalLink>
+                <ExternalLink href='https://www.facebook.com/gcinvestments.in/'>
+                 <FaFacebookF className='social-media-icons'/>
+                </ExternalLink>
+                <ExternalLink href='https://www.instagram.com/guardiancapital/'>
+                 <BsInstagram className='social-media-icons'/>
+                </ExternalLink>
+                <ExternalLink href='https://www.youtube.com/channel/UCoRYbNK4TebZcBbNR3-THbw'>
+                 <FaYoutube className='social-media-icons'/>
+                </ExternalLink>
             </span>
         </div>
     </div>
